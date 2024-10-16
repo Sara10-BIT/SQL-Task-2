@@ -1,0 +1,1 @@
+select min(order_amount),max(order_amount) from orders where Extract(Year from order_date) = 2023; 
